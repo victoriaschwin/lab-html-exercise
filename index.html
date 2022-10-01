@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Npm Clone</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -23,12 +24,19 @@
         </nav>
       </div>
       <div class="search">
-        <img src="./images/npm-logo.png" alt="npm logo" />
-        <img src="./images/magnifying-glass.png" alt="magnifying glass" />
-        <input type='text' placeholder="Search packages"/>
-        <button class='pink-link' >Search</button>
-        <a class='link-gray' href="#">Join</a>
-        <a class='link-gray' href="#">Log In</a>
+        <img class="npm" src="./images/npm-logo.png" alt="npm logo" />
+        <div class="gray">
+          <img
+            class="glass"
+            src="./images/magnifying-glass.png"
+            alt="magnifying glass"
+          />
+          <input type="text" placeholder="Search packages" />
+        </div>
+
+        <button class="pink-link">Search</button>
+        <a class="link-gray" href="#">Join</a>
+        <a class="link-gray" href="#">Log In</a>
       </div>
     </header>
 
@@ -36,19 +44,19 @@
       <div>
         <h1>Build amazing things</h1>
       </div>
-      <aside >
+      <aside>
         Essential JavaScript development tools that help you go to market faster
         and build powerful applications using modern open source code.
       </aside>
       <div>
-        <a class='pink-link' href="#">See Plans</a>
+        <a class="pink-link" href="#">See Plans</a>
         <a href="#">Join for free</a>
       </div>
     </section>
     <section class="build">
       <img src="./images/triangle-hexagon.svg" alt="triangle hexagon" />
       <h2>Bring the best of open source to your company</h2>
-      <aside >
+      <aside>
         npm is the tool used by over 11,000,000 JavaScript developers around the
         world. Your developers already use it. Your company depends on it.
         Create an Org and get more out of the tools your team already knows and
@@ -88,7 +96,7 @@
           zero-friction way to make open source software safer.
         </aside>
       </div>
-      <a class='black-link' href="#">Create an Org</a>
+      <a class="black-link" href="#">Create an Org</a>
     </section>
   </body>
 </html>

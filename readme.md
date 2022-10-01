@@ -163,13 +163,6 @@ In the first part of this exercise, you created the header and inside it the nav
 We'll help you style the part of the code we previously provided for you - the upper _div_ of the _header_ tag.
 
 ```css
-header > div {
-  padding: 0 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid lightgray;
-}
 
 nav {
   width: 600px;
