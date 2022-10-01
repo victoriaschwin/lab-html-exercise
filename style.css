@@ -79,3 +79,34 @@ nav a {
   color: black;
   padding: 0.5rem;
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+}
+
+.shadow{
+  margin: 0.5rem;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.main h1{
+  font-size: 4rem;
+  margin: 0.5rem;
+}
+
+.main aside{
+  font-size: 1rem;
+  max-width: 30%;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.black{
+  color: black;
+}
+
